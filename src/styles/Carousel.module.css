@@ -1,0 +1,13 @@
+.carousel {
+    height: 400px;
+    background: #56ACDE;
+    padding: 25px 28px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content:left;
+    width: calc(100% - 15px) !important;
+    text-align: left;
+}
+
+
+  
