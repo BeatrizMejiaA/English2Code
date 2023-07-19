@@ -23,6 +23,7 @@
     "react-icons": "^4.10.1",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
+    "sharp": "^0.32.3",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.11",
     "tw-elements-react": "^1.0.0-alpha1",
