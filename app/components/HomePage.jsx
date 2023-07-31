@@ -33,8 +33,8 @@ function HomePage() {
 
   return (
     <div style={containerStyle}>
-      {/*overlay- sombra */}
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[2] " />
+      {/*overlay- sombra 
+      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/40 z-[2] " /> */}
       <Grid
         container
         height="100vh"
