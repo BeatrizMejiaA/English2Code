@@ -1,5 +1,5 @@
 "use client";
-import NavBar from "./components/navBar";
+import NavBar from "./components/NavBar";
 import HomePage from "./components/HomePage";
 import Experiences from "./components/Experiences";
 import Differentiators from "./components/Differentiators";
