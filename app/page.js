@@ -1,5 +1,5 @@
 "use client";
-import Navbar from "./components/navBar";
+import NavBar from "./components/navBar";
 import HomePage from "./components/HomePage";
 import Experiences from "./components/Experiences";
 import Differentiators from "./components/Differentiators";
@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      <NavBar />
       <HomePage />
       <Experiences />
       <Differentiators />
