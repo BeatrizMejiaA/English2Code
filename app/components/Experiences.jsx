@@ -72,7 +72,7 @@ function Experiences() {
             <Row>
               <Col>
                 <Text color="#000" size={12}>
-                  "Gracias a English for Devs Academy, mejore mi ingles."
+                &ldquo;Gracias a English for Devs Academy, mejore mi ingles.&rdquo;
                 </Text>
                 <Text h4 color="#000" size={12}>
                   - Maria.
