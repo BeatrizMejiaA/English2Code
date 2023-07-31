@@ -20,8 +20,16 @@ const Content = () => {
     backgroundSize: "cover",
     backgroundPosition: "center",
     //width: "100%",
-   // height: "450px",
+    // height: "450px",
     backgroundRepeat: "no-repeat",
+  };
+
+  const handleLinkClick = () => {
+    // Open a link in a new tab
+    window.open(
+      "https://docs.google.com/forms/d/e/1FAIpQLSdwDikfut4Eg7x9be554_93xk29YFcSWzrQRr0Zm5diwhGYrw/viewform",
+      "_blank"
+    );
   };
   return (
     <div style={containerStyle}>
@@ -84,7 +92,7 @@ const Content = () => {
                   Explica tu código con confianza y claridad.
                 </Text>
               </Row>
-            
+
               <Row>
                 <BsCheckLg />
                 <Text
@@ -98,7 +106,7 @@ const Content = () => {
                   Clases en línea enfocadas en tecnología.
                 </Text>
               </Row>
-            
+
               <Row>
                 <BsCheckLg />
                 <Text
@@ -112,7 +120,7 @@ const Content = () => {
                   Práctica de entrevistas en inglés.
                 </Text>
               </Row>
-            
+
               <Row>
                 <BsCheckLg />
                 <Text
@@ -126,15 +134,14 @@ const Content = () => {
                   HackerRanks de diversas tecnologías.
                 </Text>
               </Row>
-            
-            
-            
+
               <Row justify="center">
                 <Button
                   style={{ backgroundColor: "#E28100", color: "#FFFFFF" }}
                   size="sm"
+                  onClick={handleLinkClick}
                 >
-                  Unirme a English2Code
+                  Contáctame
                 </Button>
               </Row>
               <Text

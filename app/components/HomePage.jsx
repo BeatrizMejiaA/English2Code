@@ -15,8 +15,8 @@ function HomePage() {
     background: `url(${mypic.src})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
-  //  width: "100%",
-  //  height: "650px",
+    //  width: "100%",
+    //  height: "650px",
     backgroundRepeat: "no-repeat",
   };
 
@@ -56,23 +56,30 @@ function HomePage() {
           </h1>
 
           {/*<h1 className="text-orange-600 text-8xl">&lt;Code&gt;</h1> */}
-        </div>
-
-        <Stack direction="row" columnGap={1} className="mr-16">
-          <Button
-            size="sm"
-            style={{ backgroundColor: "#E28100", color: "#FFFFFF" }}
-            onClick={() => setShowModal(true)}
-          >
-            Unirme a Eglish2Code
-          </Button>
           <Button
             size="sm"
             style={{ backgroundColor: "#E28100", color: "#FFFFFF" }}
             onClick={() => setShowSecondModal(true)}
           >
-            Unirme a Eglish2Code
+            Contáctame
           </Button>
+        </div>
+
+        <Stack
+          direction="row"
+          columnGap={0}
+          className="mr-50"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          {/* 
+            <Button
+            size="sm"
+            style={{ backgroundColor: "#E28100", color: "#FFFFFF"}}
+            onClick={() => setShowModal(true)}
+          >
+            Contáctame
+          </Button>
+          */}
 
           <Modal
             closeButton
