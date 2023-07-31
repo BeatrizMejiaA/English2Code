@@ -5,13 +5,12 @@ import "tw-elements-react/dist/css/tw-elements-react.min.css";
 import { darkTheme } from "./theme/themes";
 import { ThemeProvider, CssBaseline } from "@mui/material";
 import { Inter } from "next/font/google";
-
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
+{/*export const metadata = {
   title: "English to code",
   description: "Created by LeticiaM",
-};
+}; */}
 
 export default function RootLayout({ children }) {
   return (
